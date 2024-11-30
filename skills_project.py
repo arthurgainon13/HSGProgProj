@@ -17,8 +17,8 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 # Main Application Class
-  class BacktestApp(tk.Tk):
-      def __init__(self):
+class BacktestApp(tk.Tk):
+    def __init__(self):
         super().__init__()
         self.title("RSI Backtesting Tool")
         self.geometry("1200x900")
